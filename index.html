@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Page</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="icon" href="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <section class="esquerda">
+            <header class="cabecalho">
+                <div class="logo">
+                    <img src="src/images/logo.svg " alt="CAP.EZ - Logo">
+                </div>
+            </header>
+
+            <h1 class="titulo">Crie uma conta</h1>
+
+            <p class="descricao">Descreva-se o mais claramente possível para que não haja erros.</p>
+
+            <div class="btn">
+                <button class="apple">
+                    <img src="src/images/apple-logo.png" alt="Login Apple">
+                    <p>Continue com Apple</p>
+                </button>
+            </div>
+
+            <div class="btn">
+                <button class="google">
+                    <img src="src/images/google-logo.png" alt="Login google">
+                    <p>Continue com Google</p>
+                </button>
+            </div>
+
+            <div class="linha">
+                <div class="linha-1"></div>
+
+                <p class="ou">ou</p>
+
+                <div class="linha-2"></div>
+            </div>
+
+            <form action="" id="formulario" class="info" method="post">
+
+                <input type="text" name="" class="requerido" placeholder="Nome completo" required>
+
+                <input type="tel" name="" class="requerido" placeholder="Telefone" required>
+
+                <input type="email" name="" class="requerido" placeholder="Email" required>
+
+                <input type="password" name="" class="requerido" placeholder="Senha" required>
+
+                <div class="button">
+                    <input type="submit" value="Criar conta!" class="conta" id="botao" onclick="validar()">
+                </div>
+            </form>
+
+            <p class="login">Já tem uma conta? <a href="#">Login</a></p>
+        </section>
+
+        <section class="direita">
+            <div class="ilustracao">
+                <img class="imagem" src="src/images/toa-heftiba-FV3GConVSss-unsplash.jpg" alt="Imagem de casa">
+            </div>
+        </section>
+    </div>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
